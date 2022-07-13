@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./estilos.css">
+
+    <title>ascensor</title>
+
+</head>
+
+<body>
+
+    <h1>ejercicio ascensor</h1>
+
+
+    <div id="contenedorMama" class="contenedorMama">
+
+        <div id="piso4" class="piso piso4">
+            <div id="ubicacionAscensorPiso4" class="ubicacion">
+                <img src="C:\Users\integrat\Desktop\visualStudio\practicaFront\ascensor\ascensorCerrado.jpg"
+                    id="ascensorCerrado4" class="ascensorC">
+            </div>
+            <div>
+                <p>piso 4</p>
+            </div>
+            <div><input type="button" value="llamar" id="botonPiso4" class="boton" onclick="callAscensor(0)"></div>
+        </div>
+
+        <div id="piso3" class="piso piso3">
+            <div id="ubicacionAscensorPiso3" class="ubicacion">
+                <img src="ascensorCerrado.jpg" id="ascensorCerrado3" class="ascensorC">
+            </div>
+            <div>
+                <p>piso 3</p>
+            </div>
+            <div><input type="button" value="llamar" id="botonPiso3" class="boton" onclick="callAscensor(1)"></div>
+        </div>
+
+        <div id="piso2" class="piso piso2">
+            <div id="ubicacionAscensorPiso2" class="ubicacion">
+                <img src="C:\Users\integrat\Desktop\visualStudio\practicaFront\ascensor\ascensorCerrado.jpg"
+                    id="ascensorCerrado2" class="ascensorC">
+            </div>
+            <div>
+                <p>piso 2</p>
+            </div>
+            <div><input type="button" value="llamar" id="botonPiso2" class="boton" onclick="callAscensor(2)"></div>
+        </div>
+
+        <div id="piso1" class="piso piso1">
+            <div id="ubicacionAscensorPiso1" class="ubicacion">
+                <img src="C:\Users\integrat\Desktop\visualStudio\practicaFront\ascensor\ascensorCerrado.jpg"
+                    id="ascensorCerrado1" class="ascensorC">
+            </div>
+            <div>
+                <p>piso 1</p>
+            </div>
+            <div><input type="button" value="llamar" id="botonPiso1" class="boton" onclick="callAscensor(3)"></div>
+        </div>
+
+        <div id="pisoPb" class="piso pisoPb">
+            <div id="ubicacionAscensorPlanta" class="ubicacion"><img
+                    src="C:\Users\integrat\Desktop\visualStudio\practicaFront\ascensor\ascensorCerrado.jpg"
+                    id="ascensorCerradoPb" class="ascensorC"></div>
+            <div>
+                <p>planta baja</p>
+            </div>
+            <div> <input type="button" value="llamar" id="botonPlanta" class="boton" onclick="callAscensor(4)"></div>
+        </div>
+
+    </div>
+
+    <!--- el objetivo era hacer un ascensor, que cuando se tocara un boton se cerrara toda puerta abierta y se abriera la que especificamente
+          se llamo no se logro ni de cerca,este es mi mejor intento 30/05/2022--->
+
+</body>
+
+<script src="./scripts.js"></script>
+
+</html>

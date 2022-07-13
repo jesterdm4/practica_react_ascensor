@@ -1,0 +1,33 @@
+
+
+.piso.piso4{
+    background-color:  #800080;
+    }
+    
+    .piso.piso3{
+    background-color:  #0000ff;
+    }
+    
+    .piso.piso2{
+        background-color:  #008000;
+    }
+    
+    .piso.piso1{
+        background-color:  #ffff00;
+    }
+    
+    .piso.pisoPb{
+        background-color:  #ff0000;
+    }
+    
+    .piso{
+        width: 50%;
+        height: 100%;
+        border: 5px solid#000;
+    background-color: #ff0000;
+        display: flex;
+        justify-content :space-around;
+        flex-direction: row;
+        align-items: center;
+    }
+    
